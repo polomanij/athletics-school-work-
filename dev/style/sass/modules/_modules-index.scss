@@ -1,0 +1,44 @@
+.header-top {
+	height: 75px;
+	background: $red;
+	text-align: center;
+}
+
+.header-nav {
+	height: 45px;
+	margin-top: 10px;
+	background: $red;
+	text-align: center;
+}
+
+.header-menu {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.header-menu li {
+	display: table-cell;
+	text-align: center;
+}
+
+.header-menu a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 45px;
+	font-size: 1.56em;
+	color: $txt-main;
+}
+
+.header-menu a:hover {
+	color: $blue;
+}
+
+.comp-reg {
+	height: 480px;
+	background: url("img/1.jpg") top center;
+	background-size: cover;
+	text-align: center;
+}

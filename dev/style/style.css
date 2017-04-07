@@ -1,0 +1,111 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font: 16px Helvetica, sans-serif; }
+
+a, a:hover, a:hover, a:focus {
+  text-decoration: none;
+  border: none; }
+
+h1 {
+  padding-top: 15px;
+  font-size: 2.5em;
+  color: #fff; }
+
+h2 {
+  margin-top: 25px;
+  font-size: 50px;
+  color: #fff; }
+
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
+
+.header-top {
+  height: 75px;
+  background: #e77575;
+  text-align: center; }
+
+.header-nav {
+  height: 45px;
+  margin-top: 10px;
+  background: #e77575;
+  text-align: center; }
+
+.header-menu {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.header-menu li {
+  display: table-cell;
+  text-align: center; }
+
+.header-menu a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.56em;
+  color: #fff; }
+
+.header-menu a:hover {
+  color: #4676f0; }
+
+.comp-reg {
+  height: 480px;
+  background: url("img/1.jpg") top center;
+  background-size: cover;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

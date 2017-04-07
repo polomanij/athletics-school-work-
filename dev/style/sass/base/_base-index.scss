@@ -1,0 +1,32 @@
+body {
+	font: 16px Helvetica, sans-serif;
+}
+
+a, a:hover, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+}
+
+h1 {
+	padding-top: 15px;
+	font-size: 2.5em;
+	color: $txt-main;
+}
+
+h2 {
+	margin-top: 25px;
+	font-size: 50px;
+	color: $txt-main;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}

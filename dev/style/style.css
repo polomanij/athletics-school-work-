@@ -41,23 +41,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
-  font: 16px Helvetica, sans-serif; }
-
-a, a:hover, a:hover, a:focus {
-  text-decoration: none;
-  border: none; }
-
-h1 {
-  padding-top: 15px;
-  font-size: 2.5em;
-  color: #fff; }
-
-h2 {
-  margin-top: 25px;
-  font-size: 50px;
-  color: #fff; }
-
 .group:before,
 .group:after {
   content: "";
@@ -69,6 +52,40 @@ h2 {
 .group {
   zoom: 1;
   /* For IE 6/7 (trigger hasLayout) */ }
+
+.comp-reg-btn {
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 30px;
+  color: #fff;
+  line-height: 50px; }
+
+.comp-reg-btn:hover {
+  color: #77777c; }
+
+.comp-reg-btn:focus {
+  color: #77777c; }
+
+body {
+  font: 16px Helvetica, sans-serif; }
+
+a, a:hover, a:hover, a:focus {
+  text-decoration: none; }
+
+a:focus {
+  color: inherit; }
+
+h1 {
+  padding-top: 15px;
+  font-size: 2.5em;
+  color: #fff; }
+
+h2 {
+  margin-top: 25px;
+  font-size: 50px;
+  color: #fff; }
 
 .header-top {
   height: 75px;
@@ -107,5 +124,20 @@ h2 {
   background: url("img/1.jpg") top center;
   background-size: cover;
   text-align: center; }
+
+.comp-reg-btns {
+  margin-top: 90px; }
+
+.register-btn {
+  background: #4676f0; }
+
+.register-btn:hover {
+  background: #7599f4; }
+
+.info-btn {
+  background: #e77575; }
+
+.info-btn:hover {
+  background: #efa0a0; }
 
 /*# sourceMappingURL=style.css.map */

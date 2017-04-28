@@ -1,1 +1,31 @@
-@import "reset"
+@import "reset";
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}	
+
+.comp-reg-btn {
+	display: inline-block;
+	width: 350px;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 30px;
+	color: #fff;
+	line-height: 50px;
+}
+
+.comp-reg-btn:hover {
+	color: $darkgrey;
+}
+
+.comp-reg-btn:focus {
+	color: $darkgrey;
+}

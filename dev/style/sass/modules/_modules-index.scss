@@ -42,3 +42,23 @@
 	background-size: cover;
 	text-align: center;
 }
+
+.comp-reg-btns {
+	margin-top: 90px;
+}
+
+.register-btn {
+	background: #4676f0;
+}
+
+.register-btn:hover {
+	background: lighten(#4676f0, 10%);
+}
+
+.info-btn {
+	background: #e77575;
+}
+
+.info-btn:hover {
+	background: lighten(#e77575, 10%);
+}

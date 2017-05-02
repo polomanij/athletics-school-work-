@@ -15,25 +15,24 @@
 	display: table;
 	width: 100%;
 	height: 100%;
-}
-
-.header-menu li {
-	display: table-cell;
-	text-align: center;
-}
-
-.header-menu a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	line-height: 45px;
-	font-size: 1.56em;
-	color: $txt-main;
-}
-
-.header-menu a:hover {
-	color: $blue;
+	li {
+		display: table-cell;
+		text-align: center;
+	}
+	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		line-height: 45px;
+		font-size: 1.56em;
+		color: $txt-main;
+		&:hover {
+			background: lighten($red, 20%);
+			color: $blue;
+			transition: all ease-out .3s;
+		}
+	}
 }
 
 .comp-reg {
@@ -47,18 +46,110 @@
 	margin-top: 90px;
 }
 
-.register-btn {
-	background: #4676f0;
+.comp-reg-btn {
+	display: inline-block;
+	width: 350px;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 1.875em;
+	color: $txt-main;
+	line-height: 50px;
+}
+
+.comp-reg-btn:focus, .comp-reg-btn:visited {
+	color: $txt-main;
+}
+
+.comp-reg-btn:hover {
+	color: $darkgrey;
+}
+
+.register-btn, .register-btn:visited {
+	background: $blue;
 }
 
 .register-btn:hover {
-	background: lighten(#4676f0, 10%);
+	background: lighten($blue, 10%);
 }
 
 .info-btn {
-	background: #e77575;
+	background: $red;
 }
 
+.info-btn:visited {
+	background: $red;
+}	
+
 .info-btn:hover {
-	background: lighten(#e77575, 10%);
+	background: lighten($red, 10%);
+}
+
+.service-cntnt {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.service-h2 {
+	margin-bottom: 40px;
+	color: $blue;
+	text-align: center;
+}
+
+.service-h3 {
+	color: $lilac;
+	font-size: 2.187em;
+}
+
+.service-icon {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin: 15px 0;
+	border: 7px solid $lilac;
+	border-radius: 50%;
+	background: $red;
+	i {
+		font-size: 1.875em;
+		margin-top: 40%;
+		color: $txt-main;
+	}
+}
+
+
+.service-desc {
+	font-size: 1.25em;
+	color: $txt-darkblue;
+}
+
+.competitions-tittle {
+	display: table;
+	width: 100%;
+	height: 90px;
+	background: $darkgrey;
+	text-align: center;
+}
+
+.competitions-cntnt {
+	display: table;
+	width: 100%;
+}
+
+.competitions-last, .competitions-coming {
+	height: 100px
+}
+
+.competitions-last {
+	background: $lightgrey;
+}
+
+.competitions-h3 {
+	font-size: 2.5em;
+	margin: 15px 0 35px;
+}
+
+.competitions-list {
+	font-size: 1.875em;
+	li {
+		margin-bottom: 45px;
+	}
 }

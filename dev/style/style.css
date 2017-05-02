@@ -53,29 +53,25 @@ table {
   zoom: 1;
   /* For IE 6/7 (trigger hasLayout) */ }
 
-.comp-reg-btn {
-  display: inline-block;
-  width: 350px;
-  height: 50px;
-  border-radius: 20px;
-  font-size: 30px;
-  color: #fff;
-  line-height: 50px; }
+.darkblue {
+  color: #1e0e59; }
 
-.comp-reg-btn:hover {
-  color: #77777c; }
+.white {
+  color: #fff; }
 
-.comp-reg-btn:focus {
-  color: #77777c; }
+.row-full > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
 
 body {
-  font: 16px Helvetica, sans-serif; }
+  font: 16px Helvetica, sans-serif;
+  box-sizing: border-box; }
 
 a, a:hover, a:hover, a:focus {
   text-decoration: none; }
 
-a:focus {
-  color: inherit; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: Utsaah; }
 
 h1 {
   padding-top: 15px;
@@ -84,7 +80,7 @@ h1 {
 
 h2 {
   margin-top: 25px;
-  font-size: 50px;
+  font-size: 3.125em;
   color: #fff; }
 
 .header-top {
@@ -102,22 +98,21 @@ h2 {
   display: table;
   width: 100%;
   height: 100%; }
-
-.header-menu li {
-  display: table-cell;
-  text-align: center; }
-
-.header-menu a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  line-height: 45px;
-  font-size: 1.56em;
-  color: #fff; }
-
-.header-menu a:hover {
-  color: #4676f0; }
+  .header-menu li {
+    display: table-cell;
+    text-align: center; }
+  .header-menu a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 1.56em;
+    color: #fff; }
+    .header-menu a:hover {
+      background: #f6cccc;
+      color: #4676f0;
+      transition: all ease-out .3s; }
 
 .comp-reg {
   height: 480px;
@@ -128,7 +123,22 @@ h2 {
 .comp-reg-btns {
   margin-top: 90px; }
 
-.register-btn {
+.comp-reg-btn {
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 1.875em;
+  color: #fff;
+  line-height: 50px; }
+
+.comp-reg-btn:focus, .comp-reg-btn:visited {
+  color: #fff; }
+
+.comp-reg-btn:hover {
+  color: #77777c; }
+
+.register-btn, .register-btn:visited {
   background: #4676f0; }
 
 .register-btn:hover {
@@ -137,7 +147,66 @@ h2 {
 .info-btn {
   background: #e77575; }
 
+.info-btn:visited {
+  background: #e77575; }
+
 .info-btn:hover {
   background: #efa0a0; }
+
+.service-cntnt {
+  text-align: center;
+  padding-bottom: 30px; }
+
+.service-h2 {
+  margin-bottom: 40px;
+  color: #4676f0;
+  text-align: center; }
+
+.service-h3 {
+  color: #c1c3dd;
+  font-size: 2.187em; }
+
+.service-icon {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: 15px 0;
+  border: 7px solid #c1c3dd;
+  border-radius: 50%;
+  background: #e77575; }
+  .service-icon i {
+    font-size: 1.875em;
+    margin-top: 40%;
+    color: #fff; }
+
+.service-desc {
+  font-size: 1.25em;
+  color: #1e0e59; }
+
+.competitions-tittle {
+  display: table;
+  width: 100%;
+  height: 90px;
+  background: #77777c;
+  text-align: center; }
+
+.competitions-cntnt {
+  display: table;
+  width: 100%; }
+
+.competitions-last, .competitions-coming {
+  height: 100px; }
+
+.competitions-last {
+  background: #8c8d94; }
+
+.competitions-h3 {
+  font-size: 2.5em;
+  margin: 15px 0 35px; }
+
+.competitions-list {
+  font-size: 1.875em; }
+  .competitions-list li {
+    margin-bottom: 45px; }
 
 /*# sourceMappingURL=style.css.map */

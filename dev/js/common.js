@@ -6,11 +6,15 @@ $(document).ready(function() {
   });
   
   $(window).resize(function() {
-    
     if($(window).width() > 500) {
       $(".menu").removeAttr("style");
+      $(".menu li").css("display", "table-cell");
     }
-    
   });
   
+  $(".register-btn").magnificPopup({
+    modal: false,
+    alignTop: false,
+  });
+
 })

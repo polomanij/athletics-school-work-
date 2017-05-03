@@ -53,6 +53,10 @@ table {
   zoom: 1;
   /* For IE 6/7 (trigger hasLayout) */ }
 
+.hidden {
+  display: none;
+  position: relative; }
+
 .darkblue {
   color: #1e0e59; }
 
@@ -242,11 +246,28 @@ h2 {
     font-size: 1.687em;
     color: #fff; }
 
+.reg-form {
+  max-width: 60%;
+  margin: auto;
+  text-align: center; }
+
+.reg-form-tittle {
+  display: table;
+  width: 100%;
+  height: 80px;
+  background: #77777c; }
+
+.reg-form-cntnt {
+  background: #8c8d94; }
+
 @media screen and (max-width: 500px) {
   .menu {
     display: none; }
 
   .toggle-menu {
     display: block; } }
+@media screen and (max-width: 400px) {
+  .comp-reg-btn {
+    width: 200px; } }
 
 /*# sourceMappingURL=style.css.map */

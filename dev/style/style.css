@@ -89,19 +89,23 @@ h2 {
   text-align: center; }
 
 .header-nav {
-  height: 45px;
+  min-height: 45px;
   margin-top: 10px;
   background: #e77575;
   text-align: center; }
 
-.header-menu {
+.toggle-menu {
+  display: none;
+  margin-top: 15px; }
+
+.menu {
   display: table;
   width: 100%;
-  height: 100%; }
-  .header-menu li {
+  min-height: 45px; }
+  .menu li {
     display: table-cell;
     text-align: center; }
-  .header-menu a {
+  .menu a {
     display: block;
     width: 100%;
     height: 100%;
@@ -109,7 +113,7 @@ h2 {
     line-height: 45px;
     font-size: 1.56em;
     color: #fff; }
-    .header-menu a:hover {
+    .menu a:hover {
       background: #f6cccc;
       color: #4676f0;
       transition: all ease-out .3s; }
@@ -195,18 +199,54 @@ h2 {
   width: 100%; }
 
 .competitions-last, .competitions-coming {
-  height: 100px; }
+  text-align: center; }
 
 .competitions-last {
-  background: #8c8d94; }
+  background: #8c8d94;
+  color: #fff; }
+
+.competitions-last a, .competitions-coming a {
+  text-decoration: underline; }
+
+.competitions-last a {
+  color: #fff; }
+  .competitions-last a:hover {
+    color: #b3b3b3; }
+
+.competitions-coming a {
+  color: #4676f0; }
+  .competitions-coming a:hover {
+    color: #0e39a9; }
 
 .competitions-h3 {
   font-size: 2.5em;
-  margin: 15px 0 35px; }
+  margin: 10px 0 30px; }
 
 .competitions-list {
   font-size: 1.875em; }
   .competitions-list li {
     margin-bottom: 45px; }
+
+.footer {
+  padding: 15px 0 20px;
+  background: #77777c; }
+
+.footer-menu {
+  color: #fff; }
+  .footer-menu a:hover {
+    background: #ababae; }
+
+.contact {
+  margin-top: 35px; }
+  .contact p {
+    font-size: 1.687em;
+    color: #fff; }
+
+@media screen and (max-width: 500px) {
+  .menu {
+    display: none; }
+
+  .toggle-menu {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */

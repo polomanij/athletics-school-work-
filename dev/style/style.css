@@ -247,7 +247,7 @@ h2 {
     color: #fff; }
 
 .reg-form {
-  max-width: 60%;
+  max-width: 80%;
   margin: auto;
   text-align: center; }
 
@@ -257,9 +257,32 @@ h2 {
   height: 80px;
   background: #77777c; }
 
-.reg-form-cntnt {
-  background: #8c8d94; }
+.registration {
+  background: #c7c7cd;
+  padding: 20px 0;
+  font-size: 1.25em;
+  color: #2c58ca; }
 
+.registration-item {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-bottom: 15px; }
+
+.registration-cntnt {
+  display: inline-block;
+  width: 65%; }
+  .registration-cntnt input {
+    float: right; }
+  .registration-cntnt label {
+    float: left; }
+
+.sex-select {
+  text-align: center; }
+
+@media screen and (max-width: 950px) {
+  .registration-item {
+    width: 100%; } }
 @media screen and (max-width: 500px) {
   .menu {
     display: none; }

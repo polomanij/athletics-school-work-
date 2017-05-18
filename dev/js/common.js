@@ -12,9 +12,6 @@ $(document).ready(function() {
     }
   });
   
-  $(".register-btn").magnificPopup({
-    modal: false,
-    alignTop: false,
-  });
+  $(".register-btn").magnificPopup();
 
 })
